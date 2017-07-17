@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-md-6">
+        <img class="title-logo img-responsive" src="./img/logo.png" alt="Logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="title-super text-thin">Sammy Wong</h1>
+          <h3>Front-end Ninja</h3>
+        </div>
+      </header>
+
+      <div class="col-md-12">
+        <hr>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive img-pointer" src="./img/xmen1.jpg" alt="X-Men" data-toggle="modal" data-target="#project1">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Featured Work</h2>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <article class="col-md-4">
+          <img class="img-responsive img-pointer" src="./img/xmen2.jpg" alt="Cyclops" data-toggle="modal" data-target="#project2">
+          <h3 class="text-uppercase">Cyclops</h3>
+          <p>https://github.com/kalyde/cyclops</p>
+        </article>
+
+        <article class="col-md-4">
+          <img class="img-responsive img-pointer" src="./img/xmen3.jpg" alt="Storm" data-toggle="modal" data-target="#project3">
+          <h3 class="text-uppercase">Storm</h3>
+          <p>https://github.com/kalyde/storm</p>
+        </article>
+
+        <article class="col-md-4">
+          <img class="img-responsive img-pointer" src="./img/xmen4.jpg" alt="Gambit" data-toggle="modal" data-target="#project4">
+          <h3 class="text-uppercase">Gambit</h3>
+          <p>https://github.com/kalyde/gambit</p>
+        </article>
+      </div>
+    </div>
+
+    <!-- Modal 1-->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-uppercase" id="myModalLabel1">X-Men</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" src="./img/xmen1.jpg" alt="X-Men">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2-->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-uppercase" id="myModalLabel2">Cyclops</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" src="./img/xmen2.jpg" alt="Cyclops">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3-->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-uppercase" id="myModalLabel3">Storm</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" src="./img/xmen3.jpg" alt="Storm">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4-->
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="project4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-uppercase" id="myModalLabel4">Gambit</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive center-block" src="./img/xmen4.jpg" alt="Gambit">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
